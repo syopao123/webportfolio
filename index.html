@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./index.css">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Paolo Hagos</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand ps-4 fw-bold" href="#landing">PH</a>
+            <button class="navbar-toggler navbar-dark ms-auto" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto pe-5 gap-4 text-white">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#landing">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">My Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tools">Tools</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Landing -->
+    <div class="container p-5 mb-2" id="landing">
+        <div class="row px-3 gap-4 justify-content-center">
+            <div class="col-auto">
+                <img src="./images/pao.png" alt="" class="rounded-circle" id="hero-image">
+            </div>
+            <div class="col-md-6 my-auto text-center">
+                <h1 class="fw-bold">Paolo Hagos</h1>
+                <h5>Full Stack Web Developer</h5>
+                <p class="mt-3" id="hero-description">I’m a developer who loves turning complex problems into simple,
+                    functional web applications. From designing APIs to crafting smooth user interfaces, I focus on
+                    writing clean, maintainable code. Let's build something great together.</p>
+                <a href="#projects" class="btn btn-primary mt-4" id="viewProjectsBtn">View My Projects</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="container p-5 mt-5" id="projects">
+        <div class="d-flex justify-content-center py-5 mt-5">
+            <div class="title-container">
+                <span class="title">My Projects</span>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 g-4 justify-content-center">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="https://outvio.com/static/46c4b46e7fce598afedf58d0cfd0e49c/af44a/clqdtroew001x728s1al0dxaw.png" alt="..." class="card-img-top">
+                        <h5 class="card-title">E-commerce API Documentation</h5>
+                        <p class="card-text">Dynamic E-Commerce Workflow Management. The System features dynamic routes
+                            for
+                            order processing, real-time inventory updates, and secure user authentication. It also
+                            supports
+                            seamless automated order reporting and comprehensive product management. Documented Backend
+                            API
+                            published publicly using Postman.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="https://outvio.com/static/46c4b46e7fce598afedf58d0cfd0e49c/af44a/clqdtroew001x728s1al0dxaw.png" alt="..." class="card-img-top">
+                        <h5 class="card-title">Course Booking API Documentation</h5>
+                        <p class="card-text">RESTful API for managing course enrollments, featuring user registration,
+                            authentication, and retrieval of user details. Supports course creation, updates, archiving,
+                            activation, and student enrollment. Publicly documented using Postman.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="https://www.appointy.com/online-class-scheduling-software/uploads/2020/11/Appointy-on-Mobile-Laptop-Tablet.png" alt="..." class="card-img-top">
+                        <h5 class="card-title">Course Booking App</h5>
+                        <p class="card-text">A MERN-stack course enrollment system featuring user registration,
+                            authentication, and profile management. Authenticated users can create, update, archive, and
+                            activate courses. The platform also allows users to brwose available courses and enroll
+                            seamlessly.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="https://cdn.dribbble.com/userupload/10803706/file/original-199e92f5c75289f0aa064f88e3fe4e87.png?resize=752x&vertical=center" alt="..." class="card-img-top">
+                        <h5 class="card-title">E-commerce App</h5>
+                        <p class="card-text">MERN E-Commerce Platform. The platform features dynamic product catalog
+                            with
+                            fitlering and sorting, real-time search, seamless cart updates, secure checkout, and a
+                            comprehensive admin dashboard with real-time analytics and user management capabilities.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="https://d3lc2v4pocabbd.cloudfront.net/wp-content/uploads/2022/08/online-booking-traveling-plane-flight-concept_53876-133675.webp" alt="..." class="card-img-top">
+                        <h5 class="card-title">Airline Booking System Mockup</h5>
+                        <p class="card-text">Side Project: Conceptual design showcasing an intuitive UI for flight
+                            search,
+                            seat selection, and booking confirmation, focusing on user experience and workflow
+                            efficiency.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="https://d3lc2v4pocabbd.cloudfront.net/wp-content/uploads/2022/08/online-booking-traveling-plane-flight-concept_53876-133675.webp" alt="..." class="card-img-top">
+                        <h5 class="card-title">Airline Booking System Prototype</h5>
+                        <p class="card-text">Side Project: Interactive prototype simulating end-to-end airline booking
+                            functionalities, including flight search, reservation, payment processing, and real-time
+                            ticket management.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="https://k21academy.com/wp-content/uploads/2024/05/AWS-Blog-images-2.png" alt="..." class="card-img-top">
+                        <h5 class="card-title">Infra Short Course Capstone (AWS)</h5>
+                        <p class="card-text">Secure, highly available AWS infrastructure architecture utilizing VPCs, EC2, auto-scaling, and RDS to reliably host a multi-tier web application.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdYs7hGJjCtwFz2IJLi-ajYhekOmhgELwa_-RnSgKCAcTFLX5uP5A4BmXJ&s=10" alt="..." class="card-img-top">
+                        <h5 class="card-title">Java Back-End Short Course Capstone</h5>
+                        <p class="card-text">Robust RESTful back-end service built with Spring Boot, managing secure user authentication, transactional data, and relational database persistence.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhonC_jQ1EJXPqa1FK0g8HmB4hGaAqXUsUd7icUCA1pBA3VCR-kFJAgsnX&s=10" alt="..." class="card-img-top">
+                        <h5 class="card-title">C# Back-End Short Course Capstone</h5>
+                        <p class="card-text">High-performance ASP.NET Core Web API designed with a decoupled repository pattern, utilizing Entity Framework Core and custom middleware.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Tools -->
+    <div class="container p-5 mb-2" id="tools">
+        <div class="d-flex justify-content-center py-5 mt-2">
+            <div class="title-container">
+                <span class="title">Tools</span>
+            </div>
+        </div>
+        <div class="row justify-content-center text-center text-white px-3 py-3 pb-5" id="tools-container">
+            <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
+                <h4>Front End</h4>
+                <div class="row justify-content-center g-3">
+                    <div class="col-auto">
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom" title="HTML">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/3840px-HTML5_Badge.svg.png"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" data-bs-toggle="tooltip" data-bs-placement="bottom" title="CSS">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/960px-CSS3_logo.svg.png"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="https://getbootstrap.com/" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Bootstrap">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/960px-Bootstrap_logo.svg.png"
+                                    alt="">
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom" title="JavaScript">
+                                <img src="https://images.seeklogo.com/logo-png/33/2/javascript-logo-png_seeklogo-330541.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
+                <h4>MERN</h4>
+                <div class="row justify-content-center g-3">
+                    <div class="col-auto">
+                        <a href="https://www.mongodb.com/" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom" title="MongoDB">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Mongodb-svgrepo-com.svg/960px-Mongodb-svgrepo-com.svg.png"
+                                    alt="">
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="https://expressjs.com/" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Express.js">
+                            <img src="https://www.manektech.com/storage/developer/1646733543.webp" alt="">
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="https://react.dev/" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom" title="React">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/960px-React_Logo_SVG.svg.png"
+                                    alt="">
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="https://nodejs.org/en" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Node.js">
+                            <img src="https://parikprasad.netlify.app/img/nodejs.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4 mt-4">
+                <h4>Other Tools</h4>
+                <div class="row justify-content-center g-3">
+                    <div class="col-auto">
+                        <a href="https://www.heroku.com/" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Heroku">
+                            <img src="https://images.icon-icons.com/2407/PNG/512/heroku_icon_146166.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="https://git-scm.com/" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Git">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/3840px-Git_icon.svg.png"
+                                    alt="">
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="https://www.postman.com/" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Postman">
+                            <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png"
+                                    alt="">
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="https://www.sublimetext.com/" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Sublime Text">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Sublime_text.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="container p-5 mb-5" id="contact">
+        <div class="d-flex justify-content-center py-5 mt-2">
+            <div class="title-container">
+                <span class="title">Contact Me</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-lg-6">
+                <form id="contact-form">
+                    <label for="form-title" class="form-label">TITLE</label>
+                    <input placeholder="Subject line" type="text" class="form-control">
+                    <label for="form-title" class="form-label mt-4">NAME</label>
+                    <input placeholder="Your name" type="text" class="form-control">
+                    <label for="form-title" class="form-label mt-4">MESSAGE</label>
+                    <textarea placeholder="Your message here..." class="form-control" rows="7"></textarea>
+                    <div>
+                        <button class="btn btn-primary w-100 py-3 fw-bold" id="contact-form-submit">Send Message</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-sm-12 col-lg-6 ps-5">
+                <div class="d-flex flex-column gap-3 pt-4" id="socials">
+                    <h4 id="socials-title" class="fw-bold mt-3">MY SOCIALS</h4>
+                    <a class="d-flex align-items-center gap-3" href="https://www.linkedin.com/">
+                        <img src="https://static.vecteezy.com/system/resources/thumbnails/016/716/462/small/linkedin-icon-free-png.png" alt="">
+                        <span>LinkedIn</span>
+                    </a>
+                    <a class="d-flex align-items-center gap-3" href="https://www.facebook.com/">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/3840px-Facebook_f_logo_%282021%29.svg.png" alt="">
+                        <span>Facebook</span>
+                    </a>
+                    <a class="d-flex align-items-center gap-3" href="https://github.com/">
+                        <img src="https://images.seeklogo.com/logo-png/50/2/github-icon-logo-png_seeklogo-503247.png" alt="">
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="d-flex flex-column align-items-center p-5 pb-4">
+        <p>Paolo Hagos</p>
+        <p>Full Stack Web Developer</p>
+        <p>&copy; All Rights Reserved 2026</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

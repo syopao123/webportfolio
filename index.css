@@ -30,6 +30,27 @@ nav .nav-link {
     font-family: "IBM Plex Mono";
 }
 
+#resume-button, #nav-resume-button {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(0, 55, 81) !important;
+    text-decoration: none;
+    background-color: rgb(14, 165, 233);
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    transition: background-color 0.2s ease;
+}
+
+#nav-resume-button {
+    width: fit-content;
+}
+
+#resume-button:hover {
+    background-color: #89cbf7;
+}
+
 a {
     color: rgb(148, 163, 184) !important;
 }
@@ -41,7 +62,10 @@ nav a:hover {
 
 #landing {
     margin-top: 100px;
-    color: white;
+}
+
+#landing h1, h5 {
+    color: rgb(223, 233, 250);
 }
 
 #landing h5 {
@@ -110,13 +134,22 @@ nav a:hover {
     background: transparent;
 }
 
+#projects svg {
+    fill: rgb(125, 211, 252);
+}
+
+#projects svg:hover {
+    color: rgb(215, 235, 245);
+}
+
 #projects .card-footer button {
+    font-size: 12px;
+    font-weight: bold;
     border-radius: 20px;
     border: 0.5px solid rgb(125, 211, 252, 0.5);
     padding: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-weight: bold;
     background: transparent;
     color: rgb(125, 211, 252);
     -webkit-box-shadow: 0px 0px 7px 2px rgba(125, 212, 252, 0.13);
@@ -131,13 +164,15 @@ nav a:hover {
 }
 
 #projects .badge {
+    text-transform: uppercase;
     font-weight: 500;
     border: 1px solid rgb(125, 211, 252, 0.5);
+    border-radius: 5px !important;
     background: rgb(125, 211, 252, 0.1);
     padding: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 0.75rem;
 }
 
 .card-img-top {

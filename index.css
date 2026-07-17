@@ -1,5 +1,5 @@
 * {
-    font-family: Montserrat;
+    font-family: "Montserrat";
 }
 
 body {
@@ -12,6 +12,10 @@ body {
     border-color: rgb(255, 255, 255, 0.05);
 }
 
+.navbar-brand {
+    font-weight: 700;
+}
+
 .navbar-toggler,
 .navbar-toggler:focus,
 .navbar-toggler:active,
@@ -21,18 +25,50 @@ body {
     box-shadow: none !important;
 }
 
+nav .nav-link {
+    font-family: "IBM Plex Mono";
+}
+
 a {
     color: rgb(148, 163, 184) !important;
 }
 
+nav a:hover {
+    color: white !important;
+    
+}
+
 #landing {
-    margin-top: 150px;
+    margin-top: 100px;
     color: white;
 }
 
+#landing h5 {
+    font-family: "IBM Plex Mono";
+    font-weight: 400 !important;
+    font-style: normal !important;
+}
+
+#landing .btn {
+    font-family: "IBM Plex Mono";
+    background: #68c0fc;
+    color: #0f172a !important;
+    border: none;
+    border-radius: 8px;
+    margin-top: 30px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: background-color 0.2s ease;
+}
+
+#landing .btn:hover {
+    background-color: #89cefc;
+}
+
 #hero-image {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     -webkit-box-shadow: 0px 0px 32px 10px rgba(134, 138, 219, 0.07);
     -moz-box-shadow: 0px 0px 32px 10px rgba(134, 138, 219, 0.07);
     box-shadow: 0px 0px 32px 10px rgba(134, 138, 219, 0.07);
@@ -43,35 +79,21 @@ a {
     color: #94A3B8;
 }
 
-#viewProjectsBtn {
-    background: #7DD3FC;
-    color: #020617 !important;
-    margin-top: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border: 2px solid #020617;
-    border-radius: 10px;
-}
-
 .title-container {
     background-color: rgb(30, 41, 59, 0.5);
     width: fit-content;
     padding: 20px;
     padding-left: 35px;
     padding-right: 35px;
-    border-radius: 25px;
+    border-radius: 20px;
     border: 2px solid rgb(255, 255, 255, 0.1);
 }
 
 .title {
+    font-family: "IBM Plex Mono";
     font-size: 18px;
     font-weight: bold;
     color: #7DD3FC;
-}
-
-#projects {
-    padding: 50px;
-    padding-bottom: 0;
 }
 
 #projects .card-footer {
@@ -91,9 +113,16 @@ a {
     -webkit-box-shadow: 0px 0px 7px 2px rgba(125, 212, 252, 0.13);
     -moz-box-shadow: 0px 0px 7px 2px rgba(125, 212, 252, 0.13);
     box-shadow: 0px 0px 7px 2px rgba(125, 212, 252, 0.13);
+    transition: color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+#projects .card-footer button:hover {
+    background: rgb(125, 211, 252);
+    color: #0f172a;
 }
 
 #projects .badge {
+    font-weight: 500;
     border: 1px solid rgb(125, 211, 252, 0.5);
     background: rgb(125, 211, 252, 0.1);
     padding: 10px;
@@ -125,6 +154,10 @@ a {
 
 .card-text {
     color: #94A3B8;
+}
+
+#tools h4 {
+    font-family: "IBM Plex Mono";
 }
 
 #tools-container {
@@ -174,11 +207,17 @@ a {
 }
 
 #contact-form-submit {
-    background: #7DD3FC;
+    font-weight: 500;
+    background: #68c0fc;
     color: #020617;
     margin-top: 30px;
     border: 2px solid #020617;
     border-radius: 10px;
+    transition: background-color 0.2s ease;
+}
+
+#contact-form-submit:hover {
+    background-color: #89cefc;
 }
 
 #contact img {

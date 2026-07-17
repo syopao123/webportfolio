@@ -9,11 +9,10 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- External CSS -->
     <link rel="stylesheet" href="./index.css">
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+    <!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!-- Webpage Icon -->
     <link rel="icon" type="image/x-icon" href="./images/pao.ico">
     <title>Paolo Hagos</title>
@@ -24,7 +23,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand ps-4 fw-bold" href="#landing">PH</a>
+                <a class="navbar-brand ps-3 ps-md-5" href="#landing">PH</a>
             <button class="navbar-toggler navbar-dark ms-auto" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -33,16 +32,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto pe-5 gap-4 text-white">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#landing">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#landing">home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#projects">My Projects</a>
+                        <a class="nav-link" href="#projects">projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#tools">Tools</a>
+                        <a class="nav-link" href="#tools">tools</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact Me</a>
+                        <a class="nav-link" href="#contact">contact</a>
                     </li>
                 </ul>
             </div>
@@ -50,24 +49,24 @@
     </nav>
 
     <!-- Landing -->
-    <div class="container p-5 mb-2" id="landing">
-        <div class="row px-3 gap-4 justify-content-center">
-            <div class="col-auto">
-                <img src="./images/pao.png" alt="" class="rounded-circle" id="hero-image">
+    <div class="container p-5" id="landing">
+        <div class="row px-3 gap-5 justify-content-center">
+            <div class="col-auto p-0">
+                <img src="./images/pao.png" alt="" class="rounded-circle img-fluid" id="hero-image">
             </div>
-            <div class="col-md-6 text-center text-md-start">
+            <div class="col-12 col-md-6 text-center text-lg-start p-0">
                 <h1 class="fw-bold">Paolo Hagos</h1>
                 <h5 class="fw-light">Full Stack Web Developer</h5>
                 <p class="mt-4" id="hero-description">I’m a developer who loves turning complex problems into simple,
                     functional web applications. From designing APIs to crafting smooth user interfaces, I focus on
                     writing clean, maintainable code. Let's build something great together.</p>
-                <a href="#projects" class="btn btn-primary mt-3" id="viewProjectsBtn">View My Projects</a>
+                <a href="#projects" class="btn mt-3" id="viewProjectsBtn">View My Projects</a>
             </div>
         </div>
     </div>
 
     <!-- Projects -->
-    <div class="container-fluid mt-5" id="projects">
+    <div class="container-fluid mt-md-5 pt-5 ps-3 pe-3 ps-md-5 pe-md-5" id="projects">
         <div class="d-flex justify-content-center py-5 mt-5">
             <div class="title-container">
                 <span class="title">My Projects</span>
@@ -106,7 +105,8 @@
                         </div>
                         <h5 class="card-title">Course Booking API Documentation</h5>
                         <div class="mb-3 row g-1 gap-1">
-                            <span class="col-auto badge rounded-pill">RESTful</span>
+                            <span class="col-auto badge rounded-pill">API</span>
+                            <span class="col-auto badge rounded-pill">Postman</span>
                         </div>
                         <p class="card-text">RESTful API for managing course enrollments, featuring user registration,
                             authentication, and retrieval of user details. Supports course creation, updates, archiving,
@@ -262,16 +262,16 @@
     </div>
 
     <!-- Tools -->
-    <div class="container p-5 mb-2" id="tools">
+    <div class="container ps-5 pe-5 mb-2 mt-5" id="tools">
         <div class="d-flex justify-content-center py-5 mt-2">
             <div class="title-container">
                 <span class="title">Tools</span>
             </div>
         </div>
-        <div class="row justify-content-center text-center text-white px-3 py-3 pb-5" id="tools-container">
-            <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
+        <div class="row g-5 justify-content-start text-start text-white px-3 py-2 pb-5 mt-1" id="tools-container">
+            <div class="col-12 col-md-6">
                 <h4>Front End</h4>
-                <div class="row justify-content-center g-3">
+                <div class="row g-3">
                     <div class="col-auto">
                         <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom" title="HTML">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/3840px-HTML5_Badge.svg.png"
@@ -295,11 +295,40 @@
                                 <img src="https://images.seeklogo.com/logo-png/33/2/javascript-logo-png_seeklogo-330541.png" alt="">
                         </a>
                     </div>
+                    <div class="col-auto">
+                        <a href="https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Blazor">
+                            <img src="https://devblogs.microsoft.com/aspnet/wp-content/uploads/sites/16/2019/04/BrandBlazor_nohalo_1000x.png"
+                                    alt="">
+                        </a>
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
+            <div class="col-12 col-md-6">
+                <h4>Back End</h4>
+                <div class="row g-3">
+                    <div class="col-auto">
+                        <a href="https://dotnet.microsoft.com/en-us/languages/csharp" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom" title="C#">
+                            <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/csharp.webp"
+                                    alt="">
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="https://dotnet.microsoft.com/en-us/apps/aspnet" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom" title="ASP.NET Core">
+                            <img src="https://cdn.jsdelivr.net/gh/selfhst/icons/png/asp-net-core.png"
+                                    alt="">
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom" title="SQL Server">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Microsoft_SQL_Server_2025_icon.svg/3840px-Microsoft_SQL_Server_2025_icon.svg.png"
+                                    alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
                 <h4>MERN</h4>
-                <div class="row justify-content-center g-3">
+                <div class="row g-3">
                     <div class="col-auto">
                         <a href="https://www.mongodb.com/" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom" title="MongoDB">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Mongodb-svgrepo-com.svg/960px-Mongodb-svgrepo-com.svg.png"
@@ -324,9 +353,14 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-4 mt-4">
-                <h4>Other Tools</h4>
-                <div class="row justify-content-center g-3">
+            <div class="col-12 col-md-6">
+                <h4>Dev Tools</h4>
+                <div class="row g-3">
+                    <div class="col-auto">
+                        <a href="https://www.figma.com/" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Figma">
+                            <img src="https://images.icon-icons.com/2429/PNG/512/figma_logo_icon_147289.png" alt="">
+                        </a>
+                    </div>
                     <div class="col-auto">
                         <a href="https://www.heroku.com/" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Heroku">
                             <img src="https://images.icon-icons.com/2407/PNG/512/heroku_icon_146166.png" alt="">
@@ -349,6 +383,16 @@
                             <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Sublime_text.png" alt="">
                         </a>
                     </div>
+                    <div class="col-auto">
+                        <a href="https://visualstudio.microsoft.com/" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Visual Studio">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Visual_Studio_Icon_2019.svg/960px-Visual_Studio_Icon_2019.svg.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="https://code.visualstudio.com/" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Visual Studio Code">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/3840px-Visual_Studio_Code_1.35_icon.svg.png" alt="">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -366,12 +410,12 @@
                 <form id="contact-form">
                     <label for="form-title" class="form-label">TITLE</label>
                     <input placeholder="Subject line" type="text" class="form-control">
-                    <label for="form-title" class="form-label mt-4">NAME</label>
-                    <input placeholder="Your name" type="text" class="form-control">
+                    <label for="form-title" class="form-label mt-4">EMAIL</label>
+                    <input placeholder="Your email" type="text" class="form-control">
                     <label for="form-title" class="form-label mt-4">MESSAGE</label>
-                    <textarea placeholder="Your message here..." class="form-control" rows="7"></textarea>
+                    <textarea placeholder="Enter your message ..." class="form-control" rows="7"></textarea>
                     <div>
-                        <button class="btn btn-primary w-100 py-3 fw-bold" id="contact-form-submit">Send Message</button>
+                        <button class="btn btn-primary w-100 py-3" id="contact-form-submit">Send Message</button>
                     </div>
                 </form>
             </div>

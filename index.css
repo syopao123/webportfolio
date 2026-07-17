@@ -3,11 +3,12 @@
 }
 
 body {
-    background-color: rgb(15, 23, 42);
+    /* background-color: rgb(15, 23, 42); */
+    background-color:rgb(11, 18, 31);
 }
 
 .navbar {
-    background-color: rgb(15, 23, 42) !important;
+    background-color: rgb(13, 22, 37) !important;
     border-bottom: 1px solid white;
     border-color: rgb(255, 255, 255, 0.05);
 }
@@ -94,6 +95,14 @@ nav a:hover {
     font-size: 18px;
     font-weight: bold;
     color: #7DD3FC;
+}
+
+#projects {
+    background-color: rgb(15, 23, 42);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-top: 1px solid rgb(36, 54, 97, 0.3);
+    border-bottom: 1px solid rgb(36, 54, 97, 0.3);
 }
 
 #projects .card-footer {
